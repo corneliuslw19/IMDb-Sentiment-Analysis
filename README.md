@@ -1,7 +1,7 @@
-#IMDb Sentiment Analysis
+# IMDb Sentiment Analysis
 A Natural Language Processing (NLP) project that classifies IMDb movie reviews as positive or negative using traditional machine learning and neural network approaches.
 
-Project Overview
+## Project Overview
 This project compares three approaches to sentiment classification:
 
 TF-IDF + Multinomial Naive Bayes** — a traditional machine learning baseline.
@@ -10,7 +10,7 @@ Keras Neural Network** — uses an embedding layer and dense layers for sentimen
 
 The project explores text preprocessing, feature representation, model training and performance evaluation.
 
-Technologies Used
+## Technologies Used
 - Python
 - Jupyter Notebook
 - Pandas and NumPy
@@ -19,7 +19,7 @@ Technologies Used
 - Matplotlib
 - GloVe word embeddings
 
-Model Performance
+## Model Performance
 | Model | Test Accuracy |
 |---|---|
 | TF-IDF + Naive Bayes | 86.16% |
@@ -28,7 +28,7 @@ Model Performance
 
 The neural network achieved the highest recorded test accuracy in the experiments.
 
-Dataset
+## Dataset
 The project uses the IMDb Dataset of 50K Movie Reviews, containing positive and negative movie reviews.
 
 The dataset is available from:
@@ -36,7 +36,7 @@ https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-review
 
 Download `IMDB Dataset.csv` and place it in the project folder before running the notebook.
 
-Pre-trained Word Embeddings
+## Pre-trained Word Embeddings
 
 The GloVe-based model uses 100-dimensional pre-trained word vectors.
 
@@ -46,7 +46,7 @@ https://nlp.stanford.edu/projects/glove/
 
 Download the GloVe 6B dataset, extract `glove.6B.100d.txt`, and place it in the project folder.
 
-Installation
+## Installation
 
 Install the required Python packages:
 
@@ -67,12 +67,12 @@ jupyter notebook
 4. Open `CM3060_Natural_Language_Processing.ipynb`.
 5. Run the notebook cells in order.
 
-Evaluation
+## Evaluation
 
 The models were evaluated using classification accuracy, classification reports and confusion matrices.
 
 The project demonstrates how different text representation and classification methods affect sentiment-analysis performance.
 
-Academic Context
+## Academic Context
 
 Developed as part of the University of London Computer Science programme, CM3060 Natural Language Processing module.
