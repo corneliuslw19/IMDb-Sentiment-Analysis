@@ -1,4 +1,4 @@
-IMDb Sentiment Analysis
+#IMDb Sentiment Analysis
 A Natural Language Processing (NLP) project that classifies IMDb movie reviews as positive or negative using traditional machine learning and neural network approaches.
 
 Project Overview
